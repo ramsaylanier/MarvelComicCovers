@@ -1,0 +1,1339 @@
+@charset "UTF-8";
+/* line 16, sass/_colors.scss */
+.pink1 {
+  color: #f7c7c5;
+}
+
+/* line 20, sass/_colors.scss */
+.pink2 {
+  color: #f59c9a;
+}
+
+/* line 24, sass/_colors.scss */
+.pink3 {
+  color: #f59c9a;
+}
+
+/* line 28, sass/_colors.scss */
+.red {
+  color: #ee373a;
+}
+
+/* line 32, sass/_colors.scss */
+.dark-red {
+  color: #65120e;
+}
+
+/* line 36, sass/_colors.scss */
+.blue {
+  color: #47c6d9;
+}
+
+/* line 40, sass/_colors.scss */
+.white-bg {
+  background-color: white;
+}
+
+/* line 44, sass/_colors.scss */
+.light-grey-bg {
+  background-color: #f2f2f2;
+}
+
+/* line 48, sass/_colors.scss */
+.dark-grey-bg {
+  background-color: rgba(35, 34, 33, 0.1);
+}
+
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ *
+.||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+
+	.                                      '||            .
+  .||.  .... ... ... ...    ....  ... ...   ||   ....   .||.    ....
+   ||    '|.  |   ||'  || .|...||  ||'  ||  ||  '' .||   ||   .|...||
+   ||     '|.|    ||    | ||       ||    |  ||  .|' ||   ||   ||
+   '|.'    '|     ||...'   '|...'  ||...'  .||. '|..'|'  '|.'  '|...'
+		.. |      ||               ||
+		 ''      ''''             ''''      A Typographic Starter Kit
+
+  URL ........... http://typeplate.com
+  VERSION ....... 1.1.1
+  Github ........ https://github.com/typeplate/typeplate.github.io
+  AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+  LICENSE ....... Creative Commmons Attribution 3.0
+  LICENSE URL ... http://creativecommons.org/licenses/by/3.0
+
+ .||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+ *
+ */
+/* line 35, sass/_typeplate.scss */
+body {
+  font-family: "omnes-pro", sans-serif;
+}
+
+/* line 39, sass/_typeplate.scss */
+p {
+  font-size: 1.2rem;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+/* line 396, sass/_typeplate.scss */
+body {
+  word-wrap: break-word;
+}
+
+/* line 400, sass/_typeplate.scss */
+pre code {
+  word-wrap: normal;
+}
+
+/**
+ * Dropcap Sass @include
+ * Use the following Sass @include with any selector you feel necessary.
+ *
+	@include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
+ *
+ * Extend this object into your custom stylesheet. Let the variables do the work.
+ *
+ */
+/* line 525, sass/_typeplate.scss */
+html {
+  font: normal 112.5%/1.5 serif;
+}
+
+/* line 533, sass/_typeplate.scss */
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  color: #444444;
+}
+
+/* line 544, sass/_typeplate.scss */
+small {
+  font-size: 65%;
+}
+
+/* line 567, sass/_typeplate.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+}
+
+/* line 582, sass/_typeplate.scss */
+.tera {
+  font-size: 117px;
+  font-size: 6.5rem;
+  margin-bottom: 0.23077rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.giga {
+  font-size: 90px;
+  font-size: 5rem;
+  margin-bottom: 0.3rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.mega {
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.375rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.alpha, h1 {
+  font-size: 60px;
+  font-size: 3.33333rem;
+  margin-bottom: 0.45rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.beta, h2 {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  margin-bottom: 0.5625rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.gamma, h3 {
+  font-size: 36px;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.delta, h4 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  margin-bottom: 1.125rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.epsilon, h5 {
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.28571rem;
+}
+
+/* line 582, sass/_typeplate.scss */
+.zeta, h6 {
+  font-size: 18px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 622, sass/_typeplate.scss */
+p {
+  margin: auto auto 1.5rem;
+}
+
+/* line 648, sass/_typeplate.scss */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}
+
+/* line 656, sass/_typeplate.scss */
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+/* line 661, sass/_typeplate.scss */
+pre {
+  white-space: pre;
+}
+
+/* line 665, sass/_typeplate.scss */
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+/**
+ * Abbreviations Markup
+ *
+	<abbr title="hyper text markup language">HMTL</abbr>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 681, sass/_typeplate.scss */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+/* line 683, sass/_typeplate.scss */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 697, sass/_typeplate.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222222;
+  font-family: "omnes-pro", sans-serif;
+}
+
+/* line 708, sass/_typeplate.scss */
+p + .drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/* line 427, sass/_typeplate.scss */
+.drop-cap:first-letter {
+  float: left;
+  margin: inherit;
+  padding: inherit;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+	<dl class="lining">
+		<dt><b></b></dt>
+		<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 466, sass/_typeplate.scss */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+/* line 473, sass/_typeplate.scss */
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+/* line 481, sass/_typeplate.scss */
+.lining dd + dd:before {
+  content: ", ";
+}
+/* line 485, sass/_typeplate.scss */
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+	<dl class="dictionary-style">
+		<dt><b></b></dt>
+			<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 493, sass/_typeplate.scss */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+/* line 497, sass/_typeplate.scss */
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+/* line 503, sass/_typeplate.scss */
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+/* line 506, sass/_typeplate.scss */
+.dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+		<figure>
+			<blockquote cite="">
+				<p></p>
+			</blockquote>
+			<figcaption>
+				<cite>
+					<small><a href=""></a></small>
+				</cite>
+			</figcaption>
+		</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+	<aside class="pull-quote">
+		<blockquote>
+			<p></p>
+		</blockquote>
+	</aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+/* line 792, sass/_typeplate.scss */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+/* line 368, sass/_typeplate.scss */
+.pull-quote:before, .pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+/* line 375, sass/_typeplate.scss */
+.pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+/* line 380, sass/_typeplate.scss */
+.pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+	<figure>
+		<figcaption>
+			<strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+		</figcaption>
+	</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+	<article>
+		<p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+		<footer>
+			<ol class="foot-notes">
+				<li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+			</ol>
+		</footer>
+	</article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 2, sass/_grid.scss */
+.row:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+/* line 8, sass/_grid.scss */
+.pure-g {
+  text-rendering: optimizespeed;
+  width: 100%;
+}
+/* line 12, sass/_grid.scss */
+.pure-g:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 20, sass/_grid.scss */
+.pure-u {
+  float: left;
+  zoom: 1;
+  vertical-align: top;
+}
+
+/* line 27, sass/_grid.scss */
+.pure-u-1, .pure-u-1-2, .pure-u-1-3, .pure-u-2-3, .pure-u-1-4, .pure-u-3-4, .pure-u-1-5, .pure-u-2-5, .pure-u-3-5, .pure-u-4-5, .pure-u-1-6, .pure-u-5-6, .pure-u-1-7, .pure-u-2-7, .pure-u-3-7, .pure-u-4-7, .pure-u-5-7, .pure-u-6-7, .pure-u-1-8, .pure-u-3-8, .pure-u-5-8, .pure-u-7-8, .pure-u-1-9, .pure-u-2-9, .pure-u-4-9, .pure-u-5-9, .pure-u-6-9, .pure-u-7-9, .pure-u-8-9, .pure-u-1-10, .pure-u-3-10, .pure-u-7-10, .pure-u-9-10, .pure-u-1-11, .pure-u-2-11, .pure-u-3-11, .pure-u-4-11, .pure-u-5-11, .pure-u-6-11, .pure-u-7-11, .pure-u-8-11, .pure-u-9-11, .pure-u-10-11, .pure-u-1-12, .pure-u-5-12, .pure-u-7-12, .pure-u-9-12, .pure-u-11-12 {
+  float: left;
+  zoom: 1;
+  vertical-align: top;
+}
+
+/* line 33, sass/_grid.scss */
+.pure-u-1-2 {
+  width: 50%;
+}
+
+/* line 37, sass/_grid.scss */
+.pure-offset-1-2 {
+  margin-left: 50%;
+}
+
+/* line 41, sass/_grid.scss */
+.pure-u-1-3 {
+  width: 33.33333%;
+}
+
+/* line 45, sass/_grid.scss */
+.pure-offset-1-3 {
+  margin-left: 33.33333%;
+}
+
+/* line 49, sass/_grid.scss */
+.pure-u-2-3 {
+  width: 66.66667%;
+}
+
+/* line 53, sass/_grid.scss */
+.pure-offset-2-3 {
+  margin-left: 66.66667%;
+}
+
+/* line 57, sass/_grid.scss */
+.pure-u-1-4 {
+  width: 25%;
+}
+
+/* line 61, sass/_grid.scss */
+.pure-offset-1-4 {
+  margin-left: 25%;
+}
+
+/* line 65, sass/_grid.scss */
+.pure-u-3-4 {
+  width: 75%;
+}
+
+/* line 69, sass/_grid.scss */
+.pure-offset-3-4 {
+  margin-left: 75%;
+}
+
+/* line 73, sass/_grid.scss */
+.pure-u-1-5 {
+  width: 20%;
+}
+
+/* line 77, sass/_grid.scss */
+.pure-offset-1-5 {
+  margin-left: 20%;
+}
+
+/* line 81, sass/_grid.scss */
+.pure-u-2-5 {
+  width: 40%;
+}
+
+/* line 85, sass/_grid.scss */
+.pure-offset-2-5 {
+  margin-left: 40%;
+}
+
+/* line 89, sass/_grid.scss */
+.pure-u-3-5 {
+  width: 60%;
+}
+
+/* line 93, sass/_grid.scss */
+.pure-offset-3-5 {
+  margin-left: 60%;
+}
+
+/* line 97, sass/_grid.scss */
+.pure-u-4-5 {
+  width: 80%;
+}
+
+/* line 101, sass/_grid.scss */
+.pure-offset-4-5 {
+  margin-left: 80%;
+}
+
+/* line 105, sass/_grid.scss */
+.pure-u-1-6 {
+  width: 16.66667%;
+}
+
+/* line 109, sass/_grid.scss */
+.pure-offset-1-6 {
+  margin-left: 16.66667%;
+}
+
+/* line 113, sass/_grid.scss */
+.pure-u-5-6 {
+  width: 83.33333%;
+}
+
+/* line 117, sass/_grid.scss */
+.pure-offset-5-6 {
+  margin-left: 83.33333%;
+}
+
+/* line 121, sass/_grid.scss */
+.pure-u-1-7 {
+  width: 14.28571%;
+}
+
+/* line 125, sass/_grid.scss */
+.pure-offset-1-7 {
+  margin-left: 14.28571%;
+}
+
+/* line 129, sass/_grid.scss */
+.pure-u-2-7 {
+  width: 28.57143%;
+}
+
+/* line 133, sass/_grid.scss */
+.pure-offset-2-7 {
+  margin-left: 28.57143%;
+}
+
+/* line 137, sass/_grid.scss */
+.pure-u-3-7 {
+  width: 42.85714%;
+}
+
+/* line 141, sass/_grid.scss */
+.pure-offset-3-7 {
+  margin-left: 42.85714%;
+}
+
+/* line 145, sass/_grid.scss */
+.pure-u-4-7 {
+  width: 57.14286%;
+}
+
+/* line 149, sass/_grid.scss */
+.pure-offset-4-7 {
+  margin-left: 57.14286%;
+}
+
+/* line 153, sass/_grid.scss */
+.pure-u-5-7 {
+  width: 71.42857%;
+}
+
+/* line 157, sass/_grid.scss */
+.pure-offset-5-7 {
+  margin-left: 71.42857%;
+}
+
+/* line 161, sass/_grid.scss */
+.pure-u-6-7 {
+  width: 85.71429%;
+}
+
+/* line 165, sass/_grid.scss */
+.pure-offset-6-7 {
+  margin-left: 85.71429%;
+}
+
+/* line 169, sass/_grid.scss */
+.pure-u-1-8 {
+  width: 12.5%;
+}
+
+/* line 173, sass/_grid.scss */
+.pure-offset-1-8 {
+  margin-left: 12.5%;
+}
+
+/* line 177, sass/_grid.scss */
+.pure-u-3-8 {
+  width: 37.5%;
+}
+
+/* line 181, sass/_grid.scss */
+.pure-offset-3-8 {
+  margin-left: 37.5%;
+}
+
+/* line 185, sass/_grid.scss */
+.pure-u-5-8 {
+  width: 62.5%;
+}
+
+/* line 189, sass/_grid.scss */
+.pure-offset-5-8 {
+  margin-left: 62.5%;
+}
+
+/* line 193, sass/_grid.scss */
+.pure-u-7-8 {
+  width: 87.5%;
+}
+
+/* line 197, sass/_grid.scss */
+.pure-offset-7-8 {
+  margin-left: 87.5%;
+}
+
+/* line 201, sass/_grid.scss */
+.pure-u-1-9 {
+  width: 11.11111%;
+}
+
+/* line 205, sass/_grid.scss */
+.pure-offset-1-9 {
+  margin-left: 11.11111%;
+}
+
+/* line 209, sass/_grid.scss */
+.pure-u-2-9 {
+  width: 22.22222%;
+}
+
+/* line 213, sass/_grid.scss */
+.pure-offset-2-9 {
+  margin-left: 22.22222%;
+}
+
+/* line 217, sass/_grid.scss */
+.pure-u-4-9 {
+  width: 44.44444%;
+}
+
+/* line 221, sass/_grid.scss */
+.pure-offset-4-9 {
+  margin-left: 44.44444%;
+}
+
+/* line 225, sass/_grid.scss */
+.pure-u-5-9 {
+  width: 55.55556%;
+}
+
+/* line 229, sass/_grid.scss */
+.pure-offset-5-9 {
+  margin-left: 55.55556%;
+}
+
+/* line 233, sass/_grid.scss */
+.pure-u-6-9 {
+  width: 66.66667%;
+}
+
+/* line 237, sass/_grid.scss */
+.pure-offset-6-9 {
+  margin-left: 66.66667%;
+}
+
+/* line 241, sass/_grid.scss */
+.pure-u-7-9 {
+  width: 77.77778%;
+}
+
+/* line 245, sass/_grid.scss */
+.pure-offset-7-9 {
+  margin-left: 77.77778%;
+}
+
+/* line 249, sass/_grid.scss */
+.pure-u-8-9 {
+  width: 88.88889%;
+}
+
+/* line 253, sass/_grid.scss */
+.pure-offset-8-9 {
+  margin-left: 88.88889%;
+}
+
+/* line 257, sass/_grid.scss */
+.pure-u-1-10 {
+  width: 10%;
+}
+
+/* line 261, sass/_grid.scss */
+.pure-offset-1-10 {
+  margin-left: 10%;
+}
+
+/* line 265, sass/_grid.scss */
+.pure-u-3-10 {
+  width: 30%;
+}
+
+/* line 269, sass/_grid.scss */
+.pure-offset-3-10 {
+  margin-left: 30%;
+}
+
+/* line 273, sass/_grid.scss */
+.pure-u-7-10 {
+  width: 70%;
+}
+
+/* line 277, sass/_grid.scss */
+.pure-offset-7-10 {
+  margin-left: 70%;
+}
+
+/* line 281, sass/_grid.scss */
+.pure-u-9-10 {
+  width: 90%;
+}
+
+/* line 285, sass/_grid.scss */
+.pure-offset-9-10 {
+  margin-left: 90%;
+}
+
+/* line 289, sass/_grid.scss */
+.pure-u-1-11 {
+  width: 9.09091%;
+}
+
+/* line 293, sass/_grid.scss */
+.pure-offset-1-11 {
+  margin-left: 9.09091%;
+}
+
+/* line 297, sass/_grid.scss */
+.pure-u-2-11 {
+  width: 18.18182%;
+}
+
+/* line 301, sass/_grid.scss */
+.pure-offset-2-11 {
+  margin-left: 18.18182%;
+}
+
+/* line 305, sass/_grid.scss */
+.pure-u-3-11 {
+  width: 27.27273%;
+}
+
+/* line 309, sass/_grid.scss */
+.pure-offset-3-11 {
+  margin-left: 27.27273%;
+}
+
+/* line 313, sass/_grid.scss */
+.pure-u-4-11 {
+  width: 36.36364%;
+}
+
+/* line 317, sass/_grid.scss */
+.pure-offset-4-11 {
+  margin-left: 36.36364%;
+}
+
+/* line 321, sass/_grid.scss */
+.pure-u-5-11 {
+  width: 45.45455%;
+}
+
+/* line 325, sass/_grid.scss */
+.pure-offset-5-11 {
+  margin-left: 45.45455%;
+}
+
+/* line 329, sass/_grid.scss */
+.pure-u-6-11 {
+  width: 54.54545%;
+}
+
+/* line 333, sass/_grid.scss */
+.pure-offset-6-11 {
+  margin-left: 54.54545%;
+}
+
+/* line 337, sass/_grid.scss */
+.pure-u-7-11 {
+  width: 63.63636%;
+}
+
+/* line 341, sass/_grid.scss */
+.pure-offset-7-11 {
+  margin-left: 63.63636%;
+}
+
+/* line 345, sass/_grid.scss */
+.pure-u-8-11 {
+  width: 72.72727%;
+}
+
+/* line 349, sass/_grid.scss */
+.pure-offset-8-11 {
+  margin-left: 72.72727%;
+}
+
+/* line 353, sass/_grid.scss */
+.pure-u-9-11 {
+  width: 81.81818%;
+}
+
+/* line 357, sass/_grid.scss */
+.pure-offset-9-11 {
+  margin-left: 81.81818%;
+}
+
+/* line 361, sass/_grid.scss */
+.pure-u-10-11 {
+  width: 90.90909%;
+}
+
+/* line 365, sass/_grid.scss */
+.pure-offset-10-11 {
+  margin-left: 90.90909%;
+}
+
+/* line 369, sass/_grid.scss */
+.pure-u-1-12 {
+  width: 8.33333%;
+}
+
+/* line 373, sass/_grid.scss */
+.pure-offset-1-12 {
+  margin-left: 8.33333%;
+}
+
+/* line 377, sass/_grid.scss */
+.pure-u-5-12 {
+  width: 41.66667%;
+}
+
+/* line 381, sass/_grid.scss */
+.pure-offset-5-12 {
+  margin-left: 41.66667%;
+}
+
+/* line 385, sass/_grid.scss */
+.pure-u-7-12 {
+  width: 58.33333%;
+}
+
+/* line 389, sass/_grid.scss */
+.pure-offset-7-12 {
+  margin-left: 58.33333%;
+}
+
+/* line 393, sass/_grid.scss */
+.pure-u-9-12 {
+  width: 75%;
+}
+
+/* line 397, sass/_grid.scss */
+.pure-offset-9-12 {
+  margin-left: 75%;
+}
+
+/* line 401, sass/_grid.scss */
+.pure-u-11-12 {
+  width: 91.66667%;
+}
+
+/* line 405, sass/_grid.scss */
+.pure-offset-11-12 {
+  margin-left: 91.66667%;
+}
+
+/* line 409, sass/_grid.scss */
+.pure-g-r img {
+  max-width: 100%;
+}
+
+@media (min-width: 980px) {
+  /* line 416, sass/_grid.scss */
+  .pure-visible-phone {
+    display: none;
+  }
+
+  /* line 417, sass/_grid.scss */
+  .pure-visible-tablet {
+    display: none;
+  }
+
+  /* line 421, sass/_grid.scss */
+  .pure-hidden-desktop {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 428, sass/_grid.scss */
+  .pure-g-r > [class^="pure-u"] {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 437, sass/_grid.scss */
+  .pure-g-r > [class^="pure-u"] {
+    width: 100%;
+  }
+
+  /* line 441, sass/_grid.scss */
+  .pure-hidden-phone {
+    display: none;
+  }
+
+  /* line 443, sass/_grid.scss */
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 450, sass/_grid.scss */
+  .pure-hidden-tablet {
+    display: none;
+  }
+
+  /* line 452, sass/_grid.scss */
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+/* line 1, sass/_mixins.scss */
+.show {
+  opacity: 1.0 !important;
+}
+
+/* line 5, sass/_mixins.scss */
+.hidden {
+  display: none;
+}
+
+/* line 9, sass/_mixins.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 13, sass/_mixins.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 17, sass/_mixins.scss */
+.strong {
+  font-weight: 600;
+}
+
+/* line 21, sass/_mixins.scss */
+.light {
+  font-weight: 100;
+}
+
+/* line 25, sass/_mixins.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 29, sass/_mixins.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 33, sass/_mixins.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 37, sass/_mixins.scss */
+.transition-1000 {
+  -webkit-transition: all 1000ms;
+  -moz-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  transition: all 1000ms;
+}
+
+/* line 43, sass/_mixins.scss */
+.bordered {
+  border: 1px solid #f2f2f2;
+}
+
+/* line 47, sass/_mixins.scss */
+.border-bottom-pink {
+  border-bottom: 2px solid #f7c7c5;
+}
+
+/* line 51, sass/_mixins.scss */
+.separator {
+  border-bottom: 1px solid #47c6d9;
+}
+
+/* line 57, sass/_mixins.scss */
+.heading {
+  font-family: "omnes-pro", sans-serif;
+}
+
+/* line 61, sass/_mixins.scss */
+.small {
+  font-size: 90%;
+}
+
+/* line 68, sass/_mixins.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 72, sass/_mixins.scss */
+.relative {
+  position: relative;
+}
+
+/* line 76, sass/_mixins.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 80, sass/_mixins.scss */
+.inline {
+  display: inline;
+}
+
+/* line 86, sass/_mixins.scss */
+.full-height {
+  height: 100%;
+}
+
+/* line 90, sass/_mixins.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 94, sass/_mixins.scss */
+.max-100 {
+  max-width: 100%;
+}
+
+/* line 101, sass/_mixins.scss */
+.m-1 {
+  margin: 1rem;
+}
+
+/* line 105, sass/_mixins.scss */
+.left-right-margin-1 {
+  margin: 0 1rem;
+}
+
+/* line 109, sass/_mixins.scss */
+.left-right-margin-2 {
+  margin: 0 2rem;
+}
+
+/* line 113, sass/_mixins.scss */
+.top-margin-1 {
+  margin-top: 1rem;
+}
+
+/* line 117, sass/_mixins.scss */
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+/* line 121, sass/_mixins.scss */
+.m-b-1 {
+  margin-bottom: 1rem;
+}
+
+/* line 125, sass/_mixins.scss */
+.m-b-2 {
+  margin-bottom: 2rem;
+}
+
+/* line 129, sass/_mixins.scss */
+.m-l-1 {
+  margin-left: 1rem;
+}
+
+/* line 133, sass/_mixins.scss */
+.m-r-1 {
+  margin-right: 1rem;
+}
+
+/* line 139, sass/_mixins.scss */
+.p-1-4 {
+  padding: .25rem;
+}
+
+/* line 143, sass/_mixins.scss */
+.p-1-2 {
+  padding: .5rem;
+}
+
+/* line 147, sass/_mixins.scss */
+.p-1 {
+  padding: 1rem;
+}
+
+/* line 151, sass/_mixins.scss */
+.p-2 {
+  padding: 2rem;
+}
+
+/* line 155, sass/_mixins.scss */
+.p-top-2 {
+  padding-top: 2rem;
+}
+
+/* line 158, sass/_mixins.scss */
+.p-bottom-2 {
+  padding-bottom: 2rem;
+}
+
+/* apply a natural box layout model to all elements */
+/* line 12, sass/main.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, sass/main.scss */
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* line 23, sass/main.scss */
+#spinner {
+  position: absolute;
+  left: 49%;
+  top: 10rem;
+}
+
+/* line 29, sass/main.scss */
+a {
+  text-decoration: none;
+  color: #232221;
+}
+
+/* line 36, sass/main.scss */
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+/* line 43, sass/main.scss */
+.btn {
+  border: none;
+  padding: .5rem;
+}
+
+/* line 50, sass/main.scss */
+.header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #cdcdcd;
+  padding: 1rem 2rem;
+}
+/* line 59, sass/main.scss */
+.header .main-nav .nav-list .nav-link {
+  display: inline;
+  padding: 0rem .5rem;
+}
+
+/* line 69, sass/main.scss */
+.errors {
+  height: 60px;
+  color: #232221;
+}
+/* line 73, sass/main.scss */
+.errors .alert {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+/* line 78, sass/main.scss */
+.errors .success {
+  background-color: #aced8f;
+}
+/* line 82, sass/main.scss */
+.errors .error {
+  background-color: #f46264;
+}
+
+/* line 92, sass/main.scss */
+.comic {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 99, sass/main.scss */
+.cover-thumbnail {
+  overflow: hidden;
+  padding: .25rem;
+}

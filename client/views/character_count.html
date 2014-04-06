@@ -1,0 +1,8 @@
+<template name="characterCount">
+	<button id="getCharacters">Get Characters</button>
+	<div class="characterCount">
+		{{#each characters}}
+			<img src="{{thumbnail.path}}/portrait_medium.{{thumbnail.extension}}"/>
+		{{/each}}
+	</div>	
+</template>

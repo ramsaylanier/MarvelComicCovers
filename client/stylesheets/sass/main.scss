@@ -1,0 +1,102 @@
+@import "breakpoints";
+@import "colors";
+@import "compass/reset";
+@import "compass/css3";
+@import "typeplate";
+@import "vars-typeplate";
+@import "grid";
+@import "mixins";
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.wrapper{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+#spinner{
+	position: absolute;
+	left: 49%;
+	top: 10rem;
+}
+
+a{
+	text-decoration: none;
+	color: $dark-grey;
+}
+
+//*********************** BUTTONS ********************
+
+button{
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	@include transition(300ms);
+} 
+
+.btn{
+	border: none;
+	padding: .5rem;
+}
+
+
+//*********************** HEADER********************
+.header{
+	position:relative;
+	width: 100%;
+	height: 80px;
+	background-color: $grey;
+	padding: 1rem 2rem;
+
+	.main-nav{
+		.nav-list{
+			.nav-link{
+				display: inline;
+				padding: 0rem .5rem;
+			}
+		}
+	}
+}
+
+
+//*********************** ERRORS ********************
+.errors{
+	height: 60px;
+	color: $dark-grey;
+	
+	.alert{
+		padding: 5px;
+		margin-bottom: 1rem;
+	}
+
+	.success{
+		background-color: $green;
+	}
+
+	.error{
+		background-color: $light-red;
+	}
+}
+
+//*********************** COMICS ********************
+
+.covers{
+}
+
+.comic{
+	@include transition(300ms);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.cover-thumbnail{
+	overflow: hidden;
+	padding: .25rem;
+}

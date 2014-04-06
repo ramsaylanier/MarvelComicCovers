@@ -1,0 +1,20 @@
+<template name="stats">
+	<div class="stats wrapper">
+		<h3>STATS</h3>
+
+		<h5>Top 10 Covers</h5>
+		{{#each topCovers}}
+			<div class="stat pure-g">
+				<div class="cover-thumbnail pure-u-1-7">
+					<a href="#" class="comic-cover" data-title="{{title}}"><img src="{{thumbnail.path}}/portrait_medium.{{thumbnail.extension}}" alt="{{title}}" data-title="{{title}}"/></a>
+				</div>
+
+				<div class="cover-meta pure-u--5">
+					<p>{{title}}</p>
+					<p>Votes: {{score}}</p>
+				</div>
+
+			</div>
+		{{/each}}
+	</div>
+</template>
