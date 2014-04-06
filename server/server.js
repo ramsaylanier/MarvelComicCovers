@@ -1,5 +1,5 @@
 var publicKey = "f04d9b49820020bb98295795dfe66b4a";
-var privateKey = "4fecba3c3b4f8fd4c57e49c5f3a94478cfcf5fbe";
+var privateKey = "add-your-private-key-here";
 
 function getRandomInt (min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
