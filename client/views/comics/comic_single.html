@@ -1,3 +1,11 @@
 <template name="comicSingle">
-	<h3>Test-{{title}}</h3>
+	<div class="comic-single wrapper">
+		<h3>{{title}}</h3>
+
+		<img src="{{thumbnail.path}}/portrait_uncanny.{{thumbnail.extension}}" alt="{{title}}" class="pure-u-2-7"/>
+		<div class="comic-meta pure-u-5-7">
+			<p><span class="strong">Series name: </span> {{series.name}}</p>
+			<p>{{{description}}}</p>
+		</div>
+	</div>
 </template>

@@ -1078,7 +1078,7 @@ p + .drop-cap {
 
 /* line 17, sass/_mixins.scss */
 .strong {
-  font-weight: 600;
+  font-weight: 00;
 }
 
 /* line 21, sass/_mixins.scss */
@@ -1336,4 +1336,9 @@ button {
 .cover-thumbnail {
   overflow: hidden;
   padding: .25rem;
+}
+
+/* line 104, sass/main.scss */
+.comic-meta {
+  padding: 0rem 1rem;
 }

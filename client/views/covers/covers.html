@@ -1,7 +1,7 @@
 <template name="covers">
 	<h3 class="centered">Which Cover Do You Prefer?</h3>
 	<div class="covers wrapper">
-	{{#each cover this}}
+	{{#each cover}}
 		<div class="comic-wrapper pure-u-1-2 centered" data-title="{{title}}">
 			<a href="#" class="comic-cover" data-title="{{title}}"><img src="{{thumbnail.path}}/portrait_uncanny.{{thumbnail.extension}}" alt="{{title}}" data-title="{{title}}"/></a>
 			<h5 class="centered">{{title}}</h5>
